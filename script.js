@@ -2,7 +2,6 @@
 
  let password = 'простой пароль';
  let aske = String(prompt("Введите пароль"));
- aske.toLowerCase();
  if (password === 'простой пароль') {
     alert("Пароль введен верно");
  } else {
