@@ -2,7 +2,7 @@
  
  let password = 'простой пароль';
  let aske = String(prompt("Введите пароль"));
- aske.toLowerCase();
+
  if (password === aske) {
     alert("Пароль введен верно");
  } else {
@@ -53,11 +53,11 @@
  //Дополнительная практика
  
  //Задание 7
-
+ /*
  let variable = Number(prompt("Пожалуйста, введите любое число"));
  let division = variable % 2;
  let result = division===0 ? alert("Число четное"): alert("Число нечетное"); 
- 
+ */
  //Задание 8
 
  let clientOS = Number(prompt("Если Ваша  операционная система ios-введите 0, если Androin-введите 1"))
